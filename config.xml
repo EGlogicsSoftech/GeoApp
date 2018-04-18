@@ -45,15 +45,7 @@
     <splash src="resources/android/splash/drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
     <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
   </platform>
-  
-   <platform name="android">
-        <config-file parent="/*" target="AndroidManifest.xml">
-            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-            <uses-feature android:name="android.hardware.location.gps" />
-        </config-file>
-    </platform>
-
+ 
   <plugin name="cordova-plugin-geolocation" spec="~4.0.1" />
 
   
