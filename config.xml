@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.dermasource.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.dermasource.app" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>GeoLocation</name>
   <description>
   	Show Location on Map  
@@ -46,7 +46,7 @@
     <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
   </platform>
  
-  <plugin name="cordova-plugin-geolocation" spec="~4.0.1" />
+  <plugin name="cordova-plugin-geolocation" spec="4.0.1" />
 
   
 </widget>
